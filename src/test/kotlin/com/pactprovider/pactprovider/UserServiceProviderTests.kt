@@ -6,7 +6,6 @@ import au.com.dius.pact.provider.junitsupport.State
 import au.com.dius.pact.provider.junitsupport.loader.PactBroker
 import au.com.dius.pact.provider.junitsupport.target.TestTarget
 import au.com.dius.pact.provider.spring.SpringRestPactRunner
-import au.com.dius.pact.provider.spring.target.SpringBootHttpTarget
 import com.ninjasquad.springmockk.MockkBean
 import io.mockk.every
 import org.junit.Before
@@ -14,8 +13,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ActiveProfiles
-import java.math.BigInteger
-import java.time.LocalDateTime
 
 @RunWith(SpringRestPactRunner::class)
 @Provider("user-provider-service")

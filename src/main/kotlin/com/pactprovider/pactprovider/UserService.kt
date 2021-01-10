@@ -8,8 +8,8 @@ class UserService {
     @GetMapping("/user")
     fun getUser(): Map<String, String> {
         return mapOf(
-                "name" to "chandan",
-                "lastName" to "Sharma",
+                "name" to "Priyanka",
+                "lastName" to "Chopra",
                 "age" to "22"
         )
     }
